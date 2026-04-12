@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
 
+    <h1>User Registration Form</h1>
+
+    <form>
+        <label>First Name:</label>
+        <input type="text"><br><br>
+
+        <label>Last Name:</label>
+        <input type="text"><br><br>
+
+        <label>Password:</label>
+        <input type="password"><br><br>
+
+        <label style="vertical-align: top;">Bio:</label>
+        <textarea rows="4" cols="50"></textarea><br><br>
+
+        <div class="form-group">
+            <h4 style="margin-bottom: 5px;">Gender:</h4>
+            <input type="radio" name="gender" id="male"> <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female"> <label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other"> <label for="other">Other</label>
+        </div><br>
+
+        <div class="form-group">
+            <h4 style="margin-bottom: 5px;">Interests:</h4>
+            <input type="checkbox" id="music"> <label for="music">Music</label><br>
+            <input type="checkbox" id="sports"> <label for="sports">Sports</label><br>
+            <input type="checkbox" id="reading"> <label for="reading">Reading</label>
+        </div><br>
+
+        <label>Country:</label>
+        <select>
+            <option>United States</option>
+            <option>Pakistan</option>
+            <option>Canada</option>
+        </select><br><br>
+
+        <label>Preferred Colors:</label>
+        <input type="color"><br><br>
+
+        <label>Profile Picture:</label>
+        <input type="file"><br><br>
+
+        <label>Birthdate:</label>
+        <input type="date"><br><br>
+
+        <label>Email:</label>
+        <input type="email"><br><br>
+
+        <label>Website:</label>
+        <input type="url"><br><br>
+
+        <label>Search:</label>
+        <input type="search"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
